@@ -26,11 +26,11 @@
     <div class="panel panel-success">
       <div class="panel-heading">
         <h2 class="panel-title text-center">
-          Rock
+          Scissors
         </h2>
       </div>
       <div class="panel-body">
-        <img class="img-responsive" src="/assets/images/rock.png">
+        <img class="img-responsive" src="/assets/images/scissors.png">
       </div>
     </div>
   </div>
@@ -62,16 +62,16 @@
       <h1>
 
         <span class="label label-success">
-          <% if @computer_move == "rock" %>
+          <% if @computer_move == "scissors" %>
             You tied!
           <% end %>
 
 
-          <% if @computer_move == "paper" %>
+          <% if @computer_move == "rock" %>
             You lost!
           <% end %>
 
-          <% if @computer_move == "scissors" %>
+          <% if @computer_move == "paper" %>
             You won!
           <% end %>
 
